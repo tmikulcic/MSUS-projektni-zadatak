@@ -37,6 +37,15 @@ ul {
   margin: 0;
 }
 
+h2 {
+  color: var(--dark-blue);
+}
+
+.image {
+  width: 100%;
+  height: auto;
+}
+
 html,
 body {
   margin: 0;
@@ -131,6 +140,14 @@ section {
   transition: color 0.15s ease, transform 0.15s ease;
 }
 
+.merlin-link,
+.merlin-link:visited {
+  font-size: 1rem;
+  color: var(--primary-yellow);
+  text-decoration: underline;
+  transition: color 0.15s ease, transform 0.15s ease;
+}
+
 /* FOOTER */
 
 footer {
@@ -186,6 +203,6 @@ footer p {
 
   /* MAIN */
   section {
-    padding: 2rem;
+    padding: 1rem;
   }
 }
