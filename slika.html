@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grafika</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="logo-container">
+          <img src="./images/logo-blue.png" alt="logo" />
+        </div>
+        <ul class="nav-items">
+          <li><a href="/index.html">Početna</a></li>
+          <li><a href="/vjezbe.html">Vježbe</a></li>
+          <li><a href="/seminar.html">Seminar</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <article>
+        <section>
+          <h2>GIMP</h2>
+          <p>
+            GIMP (GNU Image Manipulation Program) je besplatan i open-source program za obradu raster grafike koji se
+            koristi za uređivanje i manipulaciju slika. Idealan je za zadatke kao što su retuširanje fotografija, izrada
+            grafičkih dizajna, kreiranje digitalnih ilustracija te konverzija formata slika. Njegova fleksibilnost i
+            bogat skup alata čine ga izvrsnom alternativom komercijalnim programima poput Adobe Photoshopa, posebno za
+            korisnike koji žele profesionalne rezultate bez troškova.
+          </p>
+          <p>
+            GIMP se često koristi za retuširanje fotografija, uključujući uklanjanje neželjenih elemenata, podešavanje
+            boja, kontrasta i osvjetljenja te dodavanje posebnih efekata. Zahvaljujući slojevima (layers) i alatima za
+            selekciju, korisnici mogu precizno uređivati slike i stvarati kompleksne kompozicije. Osim toga, GIMP
+            podržava različite dodatke i skripte koje proširuju njegovu funkcionalnost, omogućujući napredne prilagodbe
+            prema potrebama korisnika.
+          </p>
+          <p>
+            Program je također popularan među dizajnerima za izradu web grafika, logotipa, bannera i drugih vizualnih
+            elemenata. GIMP omogućuje rad s različitim formatima slika, uključujući PNG, JPEG, GIF, PSD i mnoge druge.
+            Osim raster grafike, moguće je kreirati jednostavne vektorske elemente, čime se dodatno povećava njegova
+            korisnost u različitim projektima.
+          </p>
+          <p>
+            Jedna od prednosti GIMP-a je njegova pristupačnost zajednici. Budući da je open-source, kontinuirano ga
+            razvijaju i poboljšavaju programeri iz cijeloga svijeta. Na internetu su dostupni brojni vodiči, tutorijali
+            i forumi koji olakšavaju učenje i pružaju podršku korisnicima. Sve to čini GIMP izvrsnim alatom za studente,
+            hobiste i profesionalce koji žele razviti svoje vještine u obradi slika.
+          </p>
+        </section>
+        <section>
+          <h2>Obrada fotografije</h2>
+          <p>
+            Originalnu fotografiju potrebno je obraditi. Cilj obrade je bolje isticanje boja, povećanje dinamičkog
+            raspona, te sveukupnog boljeg izgleda fotografije:
+          </p>
+          <img class="image" src="/images/gimp/original_slika.jpg" alt="Originalna slika" />
+        </section>
+        <section>
+          <h2>Isticanje crne boje</h2>
+          <p>Prvo cemo vise istaknuti crnu boju na fotografiji</p>
+          <ol>
+            <li>Iz alatnog izbornika <b>Colors</b> -> odabrati opciju <b>Exposure</b></li>
+            <li>Postaviti <b>Black level</b> na 0.060</li>
+          </ol>
+          <img class="image" src="images/gimp/1-instrukcija.png" alt="black level" />
+          <p>Ovime smo dobili izrazenije crne boje na fotografiji i siri dinamicki raspon fotografije</p>
+          <img class="image" src="images/gimp/2-instrukcija.png" alt="black level" />
+        </section>
+        <section>
+          <h2>Podesavanje ostrine</h2>
+          <p>
+            Fotografiji cemo malo smanjiti ostrinu jer fotografija uslikana mobitelom ima previse digitalne ostrine.
+          </p>
+          <ol>
+            <li>Iz alatnog izbornika Filters -> odabrati opciju Enhance -> Sharpen</li>
+            <li>Radius postaviti na 3.000</li>
+            <li>Amount postaviti na 0.250</li>
+            <li>Thershold ostaviti na 0</li>
+          </ol>
+          <img class="image" src="images/gimp/3-instrukcija.png" alt="ostrina" />
+        </section>
+        <section>
+          <h2>Temperatura boja</h2>
+          <p>
+            Fotogafija ima prehladne boje tako da cemo spustiti temperaturu boja kako bismo dobili topliju fotografiju
+            kako bismo i
+          </p>
+          <ol>
+            <li>Iz alatnog izbornika Colors -> odabrati opciju Color Temperature</li>
+            <li>Original Temperature ostaviti na defautnoj vrijednosti</li>
+            <li>Intended Temperature postaviti na 10000</li>
+          </ol>
+          <img class="image" src="images/gimp/4-instrukcija.png" alt="temperatura boja" />
+        </section>
+        <section>
+          <h2>Zatamnjenje rubova</h2>
+          <ol>
+            <li>Iz alatnog izbornika Filters -> odabrati opciju Light and Shadow -> Vignette</li>
+            <li>Postaviti centar Vignette-a na crkvu</li>
+            <li>Postaviti Radius na 1.3</li>
+          </ol>
+          <img class="image" src="images/gimp/5-instrukcija.png" alt="vignette" />
+        </section>
+        <section>
+          <h2>Konacna fotografija</h2>
+          <p>
+            Kao rezultat dobili smo fotografiju na kojoj su boje korigirane, saturacija boja je veca, boje su toplije,
+            te je crkva u fokusu slike.
+          </p>
+          <img class="image" src="images/gimp/gotova_slika.png" alt="konacna slika" />
+          <p>U usporedbi sa originalnom fotografijom:</p>
+          <img class="image" src="/images/gimp/original_slika.jpg" alt="Originalna slika" />
+        </section>
+      </article>
+    </main>
+    <footer>
+      <p>&copy; 2025 Multimedijalni sustavi | FIPU</p>
+      <p>Tomislav Mikulčić</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
