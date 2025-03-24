@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grafika</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="logo-container">
+          <img src="./images/logo-blue.png" alt="logo" />
+        </div>
+        <ul class="nav-items">
+          <li><a href="/index.html">Početna</a></li>
+          <li><a href="/slika.html">Slika</a></li>
+          <li><a href="/grafika.html">Grafika</a></li>
+          <li><a href="/vjezbe.html">Vježbe</a></li>
+          <li><a href="/video.html">Video</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <article>
+        <section>
+          <h2>Inkscape</h2>
+          <p>
+            <strong>Inkscape</strong> je moćan besplatni alat za vektorsku grafiku, idealan za izradu logotipa,
+            ilustracija, tehničkih crteža i drugih grafičkih elemenata. Koristi SVG (Scalable Vector Graphics) format,
+            što omogućuje kreiranje slika koje ne gube kvalitetu pri povećavanju ili smanjivanju.
+          </p>
+          <p>
+            Program nudi širok spektar alata za crtanje i uređivanje, uključujući putanje, oblike, gradijente, slojeve i
+            efekte. Jedna od glavnih prednosti Inkscapea je njegova fleksibilnost, koja omogućuje detaljno uređivanje
+            vektorskih elemenata uz visoku preciznost.
+          </p>
+        </section>
+        <section>
+          <h2>Izrada logotipa</h2>
+          <p>
+            Cilj je izraditi logo koji će se koristiti na ovoj web stranici. Pronaći cemo nekoliko postojećih
+            svg ikona te ih sve povezati i prilagoditi u jedan unikatni logo.
+          </p>
+        </section>
+        <section>
+          <h2>Postupak izrade logotipa</h2>
+          <ol>
+            <li>Kao template ćemo odabrati dimenziju 512x512</li>
+            <li>Postavit ćemo pozadinu u plavoj boji, hex vrijednosti #23486a</li>
+            <li>Odabrati Rectangle Tool i nacrtati kvadrat</li>
+            <li>Centrirati kvadrat vertikalno i horizontalno na Page</li>
+          </ol>
+          <img class="image" src="images/inkscape/1-instrukcija.png" alt="crtanje kvadrata" />
+          <br>
+          <ol>
+            <li>Odabrati ćemo Text Tool i na sredini postaviti tekst prozor u koji ćemo upisati "MSUS"</li>
+            <li>Postavit ćemo stil fonta na Avenir Next, veličinu fonta 187px te bijelu boju slova</li>
+            <li>Tekst ćemo vertikalno centrirati, a horizontalno će desni rub teksta biti malo udaljen od desnog ruba kvadrata</li>
+          </ol>
+          <img class="image" src="images/inkscape/2-instrukcija.png" alt="postavljanje teksta" />
+          <br>
+          <ol>
+            <li>Odabrati ćemo Rectangle Tool kako bismo napravili oblik vertikalne linije koja će odijeljivati tekst od SVG ikona</li>
+            <li>SVG ikone ćemo učitati u Inkscape i postaviti u template</li>
+            <li>Ikone ćemo postaviti na željenu veličinu, repozicionirati i postaviti bijelu boju</li>
+          </ol>
+          <img class="image" src="images/inkscape/3-instrukcija.png" alt="postavljanje teksta" />
+          <br>
+          <p>Dizajn je gotov, samo je još potrebno grupirati sve elemente i spremni smo za export slike.</p>
+          <ol>
+            <li>Za grupiranje, potrebno je selektirati sve elemente, kliknuti <strong>Object</strong> na alatnoj traci te kliknuti naredbu <strong>Group</strong></li>
+            <li>Za export, potrebno je kliknuti <strong>File</strong> na alatnoj traci te kliknuti naredbu <strong>Export...</strong></li>
+            <li>Export area odabrati <strong>Selection</strong></li>
+            <li>Width i Height postavljamo na <strong>512px</strong></li>
+            <li>Export format odabiremo <strong>PNG</strong></li>
+          </ol>
+          <img class="image" src="images/inkscape/4-instrukcija.png" alt="postavljanje teksta" />
+          <br>
+        </section>
+        <section>
+          <h2>Konačan izgled logotipa:</h2>
+          <div class="logo-box">
+            <img src="images/inkscape/msus-logo.png" alt="logo" width="367" height="367">
+          </div>
+        </section>
+      </article>
+    </main>
+    <footer>
+      <p>&copy; 2025 Multimedijalni sustavi | FIPU</p>
+      <p>Tomislav Mikulčić</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
