@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Zvuk</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul class="nav-items">
+          <li><a href="/index.html">Početna</a></li>
+          <li><a href="/slika.html">Slika</a></li>
+          <li><a href="/grafika.html">Grafika</a></li>
+          <li><a href="/zvuk.html">Zvuk</a></li>
+          <li><a href="/video.html">Video</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <article>
+        <section>
+          <h2>Audacity</h2>
+          <p>
+            Audacity je besplatan i open-source program za obradu zvuka koji omogućuje korisnicima snimanje, uređivanje
+            i analizu audiozapisa. Jedan je od najpopularnijih alata za zvuk zbog svoje jednostavnosti, dostupnosti i
+            širokog spektra funkcionalnosti. Koristi se u raznim područjima, poput stvaranja podcasta, uređivanja
+            glazbe, snimanja vokala i instrumenata te izrade audio knjiga.
+          </p>
+          <p>
+            Glavne značajke Audacityja uključuju mogućnost snimanja zvuka uživo putem mikrofona ili miksanja s više
+            izvora, uređivanje višekanalnih audiozapisa i primjenu efekata poput ekvilizacije, smanjenja šuma, reverba i
+            kompresije. Korisnici mogu lako izrezivati, kopirati, spajati i miješati različite dijelove zvuka, što ga
+            čini idealnim za detaljne prilagodbe i kreativne projekte.
+          </p>
+        </section>
+        <section>
+          <h2>Izrada uspavljujuće glazbe</h2>
+          <p>
+            Ideja je izraditi umirujuću glazbu za opuštanje ili spavanje, koristeći postojeće audio elemente preuzete s
+            interneta. Glavni dio glazbe činit će kombinacija klavira i gitare, te će se kasnije prijeću na atmosfersku
+            synth glazbu, dok će se u pozadini nalaziti zvukovi kiše i ptica.
+          </p>
+          <div class="sound-grid">
+            <div>
+              <p>Klavir i gitara</p>
+              <audio controls>
+                <source src="sounds/piano:guitar.mp3" type="audio/mpeg" />
+              </audio>
+            </div>
+            <div>
+              <p>Atmosferski synth</p>
+              <audio controls>
+                <source src="sounds/synth.mp3" type="audio/mpeg" />
+              </audio>
+            </div>
+          </div>
+          <div class="sound-grid">
+            <div>
+              <p>Zvuk ptica</p>
+              <audio controls>
+                <source src="sounds/birds.mp3" type="audio/mpeg" />
+              </audio>
+            </div>
+            <div>
+              <p>Zvuk kiše</p>
+              <audio controls>
+                <source src="sounds/rain.mp3" type="audio/mpeg" />
+              </audio>
+            </div>
+          </div>
+        </section>
+        <section>
+          <h2>Postupak izrade glazbene kompozicije u Audacityju</h2>
+          <ol>
+            <li>Pokrenuti Audacity i otvoriti novi projekt putem <strong>File > New</strong>.</li>
+            <li>
+              Uvesti sve potrebne audio datoteke pomoću <strong>File > Import > Audio</strong> – piano-guitar.mp3,
+              atmo-synth.mp3, rain.mp3, birds.mp3.
+            </li>
+            <li>Napraviti 3 sloja: main, rain i birds, te umetnuti mp3 fajlove u odgovarajuće slojeve</li>
+            <li>
+              Pozicionirati <strong>piano-guitar.mp3</strong> dvaput zaredom na glavnu audio traku (drugi puta
+              duplicirati: <strong>Edit > Duplicate</strong>).
+            </li>
+            <li>
+              Postaviti <strong>rain.mp3</strong> da svira u pozadini tijekom prvog izvođenja piano-guitar – pomaknuti
+              zvučni zapis tako da se poklapa s trajanjem prvog piano-guitar dijela (tzv.
+              <strong>matchanje trajanja</strong>).
+            </li>
+            <li>
+              Balansirati jačinu kiše pomoću <strong>Envelope Tool</strong> ili <strong>Effect > Amplify</strong> kako
+              ne bi nadjačala glavnu glazbu.
+            </li>
+            <li>
+              Postaviti <strong>birds.mp3</strong> kao pozadinski zvuk tijekom drugog izvođenja piano-guitar. Pomaknuti
+              ga tako da započne odmah nakon prvog dijela i traje koliko i drugi piano-guitar segment.
+            </li>
+            <li>Ponovno balansirati glasnoću ptica kako bi bile suptilne i umirujuće.</li>
+            <li>
+              Dodati <strong>fade-out</strong> na kraju drugog izvođenja piano-guitar, i <strong>fade-in</strong> na
+              početku synth dijela pomoću <strong>Effect > Fade Out</strong> i <strong>Effect > Fade In</strong>. Time
+              se ostvaruje <strong>glatki prijelaz</strong>.
+            </li>
+            <li>
+              Postaviti <strong>atmo-synth.mp3</strong> nakon drugog izvođenja piano-guitar, odmah iza fade-out-a.
+            </li>
+            <li>
+              Podijeliti synth audio u dva dijela pomoću <strong>Split (Edit > Clip Boundaries > Split)</strong> na
+              sredini trajanja.
+            </li>
+            <li>
+              Postaviti <strong>rain.mp3</strong> da se ponovi i svira u prvoj polovici synth dijela (prilagoditi
+              duljinu i poziciju).
+            </li>
+            <li>
+              Postaviti <strong>birds.mp3</strong> da svira u drugoj polovici synth dijela (nakon što završi rain). Ova
+              promjena atmosfere doprinosi osjećaju prijelaza dana ili smirivanja.
+            </li>
+            <li>
+              Na svim pozadinskim zvukovima (kiša i ptice) primijeniti <strong>Fade In</strong> i
+              <strong>Fade Out</strong> kako bi se prirodno uklopili u kompoziciju bez naglih promjena.
+            </li>
+            <li>
+              Koristiti <strong>Time Shift Tool</strong> za fino pomicanje svih zapisa kako bi se savršeno preklapali i
+              sinkronizirali.
+            </li>
+            <li>
+              Pregledati cijeli projekt pritiskom na <strong>Space</strong> kako bi se čuo tijek zvuka – obratiti
+              pozornost na <strong>balans</strong> između glavnih i pozadinskih elemenata.
+            </li>
+            <li>
+              Ako neki dio strši ili je previše naglašen, koristiti <strong>Effect > Amplify</strong> ili
+              <strong>Effect > Normalize</strong> za dodatne korekcije glasnoće.
+            </li>
+            <li>
+              Nakon završnih dorada, označiti cijeli projekt (<strong>Ctrl + A</strong>) i izvesti finalni audio putem
+              <strong>File > Export > Export as MP3</strong>.
+            </li>
+            <li>Postaviti naziv datoteke, kvalitetu zvuka i izvesti gotov uspavljujući audio zapis.</li>
+          </ol>
+        </section>
+        <section>
+          <h2>Konačni rezultat</h2>
+          <div class="sound-grid">
+            <audio controls>
+              <source src="sounds/final-result.mp3" type="audio/mpeg" />
+            </audio>
+          </div>
+          <img class="image" src="images/audacity.png" alt="crtanje kvadrata" style="margin-top: 2rem" />
+        </section>
+      </article>
+    </main>
+    <footer>
+      <p>&copy; 2025 Multimedijalni sustavi | FIPU</p>
+      <p>Tomislav Mikulčić</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
