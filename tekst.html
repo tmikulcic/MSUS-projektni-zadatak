@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Zvuk</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul class="nav-items">
+          <li><a href="/index.html">Početna</a></li>
+          <li><a href="/tekst.html">Tekst</a></li>
+          <li><a href="/slika.html">Slika</a></li>
+          <li><a href="/grafika.html">Grafika</a></li>
+          <li><a href="/zvuk.html">Zvuk</a></li>
+          <li><a href="/video.html">Video</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <article>
+        <section>
+          <h2>Scribus</h2>
+          <p>
+            Scribus je besplatan i open-source program za izradu raznih vrsta tiskovina, poput brošura, letaka, časopisa
+            i plakata. Namijenjen je za grafički dizajn i pripremu za tisak, a nudi profesionalne alate za precizno
+            oblikovanje stranica.
+          </p>
+          <p>
+            Glavne značajke Scribusa uključuju rad s više stupaca, umetanje slika i teksta, podršku za CMYK boje,
+            upravljanje fontovima i generiranje PDF dokumenata visoke kvalitete. Koristi se u dizajnu tiskanih
+            materijala gdje je važna kontrola nad izgledom i rasporedom sadržaja.
+          </p>
+        </section>
+        <section>
+          <h2>Postupak izrade brošure u Scribusu</h2>
+          <ol>
+            <li>Pokrenuti Scribus i otvoriti novi projekt putem <strong>File > New</strong>.</li>
+            <li>
+              U prozoru za novi dokument odabrati <strong>Page Size: Letter (8.5 x 11 in)</strong> i
+              <strong>Orientation: Portrait</strong>.
+            </li>
+            <li>
+              Uključiti vodilice putem <strong>Page > Manage Guides</strong> i postaviti ih tako da se stranica podijeli
+              na dva jednaka stupca.
+            </li>
+            <li>
+              Definirati tri boje u <strong>Edit > Colors...</strong>: zlatnu (RGB 255, 215, 0), plavu (npr. RGB 70,
+              130, 180) i tamno plavu (npr. RGB 0, 51, 102).
+            </li>
+            <li>
+              Pomoću vodilica postaviti i poravnati <strong>Text Frame</strong> i <strong>Image Frame</strong> unutar
+              svakog stupca.
+            </li>
+            <li>
+              U svaki tekstualni okvir dodati prikladni opis za jednu od usluga (obrada slike, zvuka, grafike, videa).
+            </li>
+            <li>
+              Podesiti stil fonta unutar <strong>Properties > Text</strong>: za tijelo teksta koristiti
+              <strong>Menlo</strong>, veličina <strong>8 pt</strong>, bijele boje.
+            </li>
+            <li>
+              Za naslove koristiti <strong>Apple Chancery</strong>, veličinu <strong>32 pt</strong> i zlatnu boju; za
+              podnaslove istu boju s veličinom <strong>14 pt</strong>.
+            </li>
+            <li>
+              Označiti sve <strong>Text Frame</strong> i u <strong>Text > Text Distances</strong> postaviti margine na
+              <strong>0.10 in</strong>.
+            </li>
+            <li>
+              Nacrtati veliki kvadrat (pomoću <strong>Insert > Shape > Rectangle</strong>) u zlatnoj boji koji prekriva
+              cijelu stranicu i pozicionirati ga na dno slojeva.
+            </li>
+            <li>
+              Nacrtati manji središnji kvadrat plave boje, postaviti ga iznad zlatnog, ali i dalje ispod teksta i slika.
+            </li>
+            <li>
+              Oko svakog teksta i slike nacrtati tamno plave boxove, promijeniti im <strong>Fill</strong> boju, dodati
+              <strong>Stroke</strong> (obrub) u zlatnoj boji te ih pozicionirati ispod svih sadržaja, ali iznad
+              pozadinskih kvadrata.
+            </li>
+            <li>
+              Provjeriti poravnanje svih elemenata pomoću <strong>View > Show Guides</strong> i
+              <strong>Snap to Guides</strong>.
+            </li>
+            <li>
+              Izvesti brošuru putem <strong>File > Export > Save as Image</strong>, odabrati format
+              <strong>JPEG</strong>, 100% veličinu, 100% kvalitetu i <strong>200 dpi</strong> rezoluciju.
+            </li>
+          </ol>
+        </section>
+        <section>
+          <h2>Konačna brošura</h2>
+          <img class="image" src="/images/scribus.jpeg" alt="Originalna slika" />
+        </section>
+      </article>
+    </main>
+    <footer>
+      <p>&copy; 2025 Multimedijalni sustavi | FIPU</p>
+      <p>Tomislav Mikulčić</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
